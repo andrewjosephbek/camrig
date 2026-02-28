@@ -5,14 +5,9 @@ Version 2 is currently in progress (UI firmware is finished)! KiCAD files are fo
 ---
 
 ## Highlights
-- **Custom 4-layer motion-control PCB** (ESP32 + TMC2209)
-- Embedded firmware for **motion control, UI, limit sensing, I²C**
+- **Custom 2-layer motion-control PCB** (Arduino Nano/ESP32 + DRV8825TMC2209, V1/V2)
+- Embedded firmware for **motion control, UI, I²C peripherals**
 - **Low-backlash worm gearbox assemblies** designed in Fusion 360
-
----
-
-## Tech Stack
-ESP32 · TMC2209 · Embedded C/C++ · 4-layer PCB · I²C · Fusion 360
 
 ---
 
