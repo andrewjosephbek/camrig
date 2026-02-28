@@ -39,7 +39,8 @@ OLED_128x64_ListInterface::OLED_128x64_ListInterface(U8G2_SH1106_128X64_NONAME_F
         std::strcpy(this->staticTextLines[i], staticTextLines[i]);
     }
 
-    // TODO: if this is nullptr then set hasDynamicLines = false
+    this->dynamicParamsLines = nullptr;
+
     if (dynamicParamsLines != nullptr) {
         this->dynamicParamsLines = new int*[nListElements];
         for (uint8_t i = 0; i < nListElements; ++i) {
@@ -56,9 +57,11 @@ OLED_128x64_ListInterface::~OLED_128x64_ListInterface() {
     for (uint8_t i = 0; i < nListElements; ++i) {
         delete[] staticTextLines[i];
     }
+    
     delete[] staticTextLines;
 
-    delete[] dynamicParamsLines;  
+    if(dynamicParamsLines != nullptr) 
+        delete[] dynamicParamsLines;  
 
     delete[] supTitle; 
 }

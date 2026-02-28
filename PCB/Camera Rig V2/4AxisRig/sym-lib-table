@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AN_SY8105")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/AN_SY8105/AN_SY8105.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS25730DREFR")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_TPS25730DREFR/KiCADv6/2026-02-28_06-47-12.kicad_sym")(options "")(descr ""))
+  (lib (name "SJ-3524-SMT")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/SJ-3524-SMT/SJ-3524-SMT.kicad_sym")(options "")(descr ""))
+)

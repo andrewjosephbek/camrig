@@ -1,0 +1,1 @@
+https://espressif.github.io/esp32-c3-book-en/chapter_5/5.3/5.3.5.html
