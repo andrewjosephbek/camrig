@@ -1,15 +1,29 @@
-# 4-Axis Motorized Camera Tracking Rig
+# Motorized Camera Tracking Rig
 
-Version 2 is currently in progress (UI firmware is finished)! KiCAD files are for an old version, may be incomplete. This project implements a compact, precision **4-axis camera motion platform** for smooth cinematic movement, integrating custom electronics, embedded firmware, and low-backlash mechanical design.
-
----
-
-## Highlights
-- **Custom 2-layer motion-control PCB** (Arduino Nano/ESP32 + DRV8825TMC2209, V1/V2)
-- Embedded firmware for **motion control, UI, I²C peripherals**
-- **Low-backlash worm gearbox assemblies** designed in Fusion 360
+This project implements a compact Camera Motion Platform; integrating custom electronics, embedded firmware, and low-backlash mechanical design. Version 2 is currently in progress (UI firmware is finished, PCB Layout is finished, housing IP)! V1 KiCAD files are for an old version, may be incomplete. 
 
 ---
 
-## Demo
+## Version 1: Demo
 [Overview Video](https://youtu.be/gTk2HjM0wyA) (1:53)
+
+---
+
+## Version 2: PCB
+
+### 3D:
+<img width="1560" height="1089" alt="image" src="https://github.com/andrewjosephbek/Timelapse-Motion-Rig/blob/main/Figs/3D.png" />
+
+### Layer 1 (Signal):
+<img width="1560" height="1089" alt="image" src="https://github.com/andrewjosephbek/Timelapse-Motion-Rig/blob/main/Figs/L1.png" />
+
+### Layer 2 (Ground):
+<img width="1560" height="1089" alt="image" src="https://github.com/andrewjosephbek/Timelapse-Motion-Rig/blob/main/Figs/L2.png" />
+
+### Layer 3 (Power):
+<img width="1560" height="1089" alt="image" src="https://github.com/andrewjosephbek/Timelapse-Motion-Rig/blob/main/Figs/L3.png" />
+
+### Layer 4 (Signal):
+<img width="1560" height="1089" alt="image" src="https://github.com/andrewjosephbek/Timelapse-Motion-Rig/blob/main/Figs/L4.png" />
+
+
