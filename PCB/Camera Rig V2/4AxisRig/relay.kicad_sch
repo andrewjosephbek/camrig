@@ -1392,14 +1392,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Unique FP" "y"
-			(at 140.97 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -1430,7 +1423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cb5a15e-fff9-485e-97c7-0854ca7e3f08")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 101.6 86.36 90)
 			(effects
 				(font
@@ -1438,7 +1431,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "10k"
 			(at 101.6 88.9 90)
 			(effects
 				(font
@@ -1489,14 +1482,6 @@
 				)
 			)
 		)
-		(property "Unique FP" ""
-			(at 101.6 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a6611fd4-4d97-4e6a-8080-b5ef01383cdc")
 		)
@@ -1506,7 +1491,7 @@
 		(instances
 			(project ""
 				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/1f8c1e4e-252c-4fbf-9279-da2bb0a1e4d6"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1674,14 +1659,6 @@
 				)
 			)
 		)
-		(property "Unique FP" ""
-			(at 198.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "4"
 			(uuid "2bc605d1-07da-4dee-8942-7a0d5fbbecbe")
 		)
@@ -1713,7 +1690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91c89f74-7fc7-411f-ae6b-30aa7adab348")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR049"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -1763,7 +1740,7 @@
 		(instances
 			(project "4AxisRig"
 				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/1f8c1e4e-252c-4fbf-9279-da2bb0a1e4d6"
-					(reference "#PWR092")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -1865,14 +1842,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Unique FP" "y"
-			(at 114.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -1903,7 +1873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e439ff77-892e-46cb-a8a3-3c4aa0924f17")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 129.54 128.27 0)
 			(effects
 				(font
@@ -1953,7 +1923,7 @@
 		(instances
 			(project ""
 				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/1f8c1e4e-252c-4fbf-9279-da2bb0a1e4d6"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1969,7 +1939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea5e62e3-dd2a-4f6e-9f6c-968a20902cc1")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 128.27 101.6 90)
 			(effects
 				(font
@@ -1977,7 +1947,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "10k"
 			(at 128.27 104.14 90)
 			(effects
 				(font
@@ -2028,14 +1998,6 @@
 				)
 			)
 		)
-		(property "Unique FP" ""
-			(at 128.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0c26f837-851a-453a-bbe3-abaf6bed30b7")
 		)
@@ -2045,7 +2007,7 @@
 		(instances
 			(project "4AxisRig"
 				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/1f8c1e4e-252c-4fbf-9279-da2bb0a1e4d6"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)

@@ -843,7 +843,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 74.93) (xy 137.16 74.93)
+			(xy 133.35 74.93) (xy 137.16 74.93)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 74.93) (xy 123.19 74.93)
+			(xy 125.73 74.93) (xy 123.19 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1185,14 +1185,6 @@
 				)
 			)
 		)
-		(property "Unique FP" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8a6199c7-70a2-477d-949f-c5459bce0720")
 		)
@@ -1302,7 +1294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 94.9452 97.79 0)
 			(effects
 				(font
@@ -1338,14 +1330,6 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 93.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unique FP" ""
 			(at 93.98 93.98 0)
 			(effects
 				(font
@@ -1445,7 +1429,7 @@
 		(fields_autoplaced yes)
 		(uuid "2de19a59-9c60-4e56-907f-9aefb12338e9")
 		(property "Reference" "U2"
-			(at 125.3333 81.28 0)
+			(at 125.3333 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1438,7 @@
 			)
 		)
 		(property "Value" "AN_SY8105"
-			(at 125.3333 83.82 0)
+			(at 125.3333 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,14 +1487,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Unique FP" "y"
-			(at 123.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -1568,7 +1545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 190.1952 99.06 0)
 			(effects
 				(font
@@ -1577,7 +1554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/TMK316BBJ226ML-T_SS.pdf"
 			(at 189.23 95.25 0)
 			(effects
 				(font
@@ -1604,14 +1581,6 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 189.23 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unique FP" ""
 			(at 189.23 95.25 0)
 			(effects
 				(font
@@ -1768,7 +1737,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 74.93 270)
+		(at 129.54 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1777,7 +1746,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f499049-0753-4e37-93f1-af641f6c725b")
 		(property "Reference" "C15"
-			(at 130.81 67.31 90)
+			(at 129.54 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,15 +1754,15 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 130.81 69.85 90)
+			(at 129.54 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 75.8952 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 125.73 75.8952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 74.93 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1780,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 74.93 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1789,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 130.81 74.93 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,15 +1797,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 130.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unique FP" ""
-			(at 130.81 74.93 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DR74"
+		(property "Footprint" "DR74-4R7-R:DR74"
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -1925,14 +1886,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Unique FP" "y"
-			(at 142.24 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1978,7 +1932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 178.7652 99.06 0)
 			(effects
 				(font
@@ -1987,7 +1941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/TMK316BBJ226ML-T_SS.pdf"
 			(at 177.8 95.25 0)
 			(effects
 				(font
@@ -2021,14 +1975,6 @@
 				)
 			)
 		)
-		(property "Unique FP" ""
-			(at 177.8 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0bc49846-060f-4719-b54d-ca8eb84930a1")
 		)
@@ -2054,7 +2000,7 @@
 		(dnp no)
 		(uuid "c03edcc1-2229-412e-a7bc-5e6caed77d4b")
 		(property "Reference" "R15"
-			(at 142.748 97.282 90)
+			(at 149.606 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2009,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 145.034 97.282 90)
+			(at 149.606 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,14 +2060,6 @@
 				)
 			)
 		)
-		(property "Unique FP" ""
-			(at 147.32 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "1726f09c-7777-4363-8ce6-5471c67bea0b")
 		)
@@ -2165,7 +2103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.9852 99.06 0)
 			(effects
 				(font
@@ -2201,14 +2139,6 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 160.02 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unique FP" ""
 			(at 160.02 95.25 0)
 			(effects
 				(font

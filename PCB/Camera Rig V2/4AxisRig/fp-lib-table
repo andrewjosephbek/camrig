@@ -7,4 +7,8 @@
   (lib (name "DR74-4R7-R")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_DR74-4R7-R/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "DR74-150-R")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_DR74-150-R/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "SMAJ10CA-13-F")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_SMAJ10CA-13-F/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "PTS810SJS250SMTR")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_PTS810SJS250SMTRLFS/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "SS-12D07-VG 4 NS GA PA")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_SS12D07VG4NSGAPA/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "PEC11L-4120F-S0020")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_PEC11L-4120F-S0020/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "865080545012")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/WCAP-ASLI_6.3X7.7/footprint.pretty")(options "")(descr ""))
 )

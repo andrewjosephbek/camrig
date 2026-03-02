@@ -1142,7 +1142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 98.7552 93.98 0)
 			(effects
 				(font
@@ -1178,14 +1178,6 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unique FP" ""
 			(at 97.79 90.17 0)
 			(effects
 				(font
@@ -1236,7 +1228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 181.3052 95.25 0)
 			(effects
 				(font
@@ -1245,7 +1237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/TMK316BBJ226ML-T_SS.pdf"
 			(at 180.34 91.44 0)
 			(effects
 				(font
@@ -1272,14 +1264,6 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 180.34 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unique FP" ""
 			(at 180.34 91.44 0)
 			(effects
 				(font
@@ -1432,14 +1416,6 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 151.13 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unique FP" ""
 			(at 151.13 101.6 0)
 			(effects
 				(font
@@ -1605,7 +1581,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f7afc4c-9ecc-463d-ab26-cbd7ed5e107a")
 		(property "Reference" "U3"
-			(at 129.1433 77.47 0)
+			(at 129.1433 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1590,7 @@
 			)
 		)
 		(property "Value" "AN_SY8105"
-			(at 129.1433 80.01 0)
+			(at 129.1433 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,14 +1639,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Unique FP" "y"
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -1728,7 +1697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 164.7952 95.25 0)
 			(effects
 				(font
@@ -1764,14 +1733,6 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 163.83 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unique FP" ""
 			(at 163.83 91.44 0)
 			(effects
 				(font
@@ -1861,14 +1822,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Unique FP" "y"
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1980,7 +1934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 194.0052 95.25 0)
 			(effects
 				(font
@@ -1989,7 +1943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/TMK316BBJ226ML-T_SS.pdf"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -2016,14 +1970,6 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 193.04 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unique FP" ""
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -2117,14 +2063,6 @@
 				)
 			)
 		)
-		(property "Unique FP" ""
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "2cb6d21a-3481-4f0c-8cd8-83ec6ed935ad")
 		)
@@ -2158,7 +2096,7 @@
 				)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "100nF"
 			(at 134.62 66.04 90)
 			(effects
 				(font
@@ -2166,7 +2104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 130.81 72.0852 0)
 			(effects
 				(font
@@ -2202,14 +2140,6 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 134.62 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unique FP" ""
 			(at 134.62 71.12 0)
 			(effects
 				(font

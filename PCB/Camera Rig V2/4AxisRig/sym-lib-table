@@ -3,4 +3,7 @@
   (lib (name "AN_SY8105")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/AN_SY8105/AN_SY8105.kicad_sym")(options "")(descr ""))
   (lib (name "TPS25730DREFR")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_TPS25730DREFR/KiCADv6/2026-02-28_06-47-12.kicad_sym")(options "")(descr ""))
   (lib (name "SJ-3524-SMT")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/SJ-3524-SMT/SJ-3524-SMT.kicad_sym")(options "")(descr ""))
+  (lib (name "PTS810SJS250SMTR")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_PTS810SJS250SMTRLFS/KiCADv6/2026-02-28_23-03-00.kicad_sym")(options "")(descr ""))
+  (lib (name "PEC11L-4120F-S0020")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_PEC11L-4120F-S0020/KiCADv6/2026-02-28_23-19-43.kicad_sym")(options "")(descr ""))
+  (lib (name "SS12D07VG4NSGAPA")(type "KiCad")(uri "C:/Users/andre/Documents/GitHub/camrig/PCB/Camera Rig V2/Footprints/ul_SS12D07VG4NSGAPA/KiCADv6/2026-02-28_23-11-21.kicad_sym")(options "")(descr ""))
 )
