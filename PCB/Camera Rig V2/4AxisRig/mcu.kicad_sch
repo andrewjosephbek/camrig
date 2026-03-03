@@ -2611,17 +2611,6 @@
 		)
 		(uuid "316e7d99-2f4b-4025-a2e0-8f3b912f0dcf")
 	)
-	(hierarchical_label "ENC_A"
-		(shape input)
-		(at 71.12 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34eeaa32-2fa1-41c2-bf3d-049c0c26d00d")
-	)
 	(hierarchical_label "D+"
 		(shape input)
 		(at 105.41 83.82 0)
@@ -2643,6 +2632,17 @@
 			(justify right)
 		)
 		(uuid "3db9fef5-02aa-4f2b-ac1f-fdf04989de07")
+	)
+	(hierarchical_label "ENC_B"
+		(shape input)
+		(at 71.12 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44aac221-cab6-4ac8-a16d-7af388a7bab0")
 	)
 	(hierarchical_label "SENSE_15V"
 		(shape input)
@@ -2688,17 +2688,6 @@
 		)
 		(uuid "64522f6e-fbd9-4172-bc8e-eadec78fec97")
 	)
-	(hierarchical_label "ENC_B"
-		(shape input)
-		(at 71.12 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e158a44-f3c8-4982-85af-0a2d4efae170")
-	)
 	(hierarchical_label "STEP2"
 		(shape output)
 		(at 101.6 86.36 0)
@@ -2720,17 +2709,6 @@
 			(justify right)
 		)
 		(uuid "86fe6ba2-2d56-43d4-975d-0cc202d0c0c5")
-	)
-	(hierarchical_label "ENC_C"
-		(shape input)
-		(at 71.12 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "906ae6ef-58be-4bb1-80ce-42301de20bea")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -2885,6 +2863,17 @@
 			(justify left)
 		)
 		(uuid "f463c226-ea62-41f1-88d0-b6fdb31ad67d")
+	)
+	(hierarchical_label "ENC_A"
+		(shape input)
+		(at 71.12 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7866a3d-88d7-4b5a-9384-2d3cda4f8f28")
 	)
 	(symbol
 		(lib_id "power:GND")
