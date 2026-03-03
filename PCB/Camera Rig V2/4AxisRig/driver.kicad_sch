@@ -250,168 +250,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_Small_0_1"
-				(rectangle
-					(start -1.524 0.6858)
-					(end 1.524 0.3048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1813,6 +1651,12 @@
 		(uuid "0241c3d4-c125-42da-83f0-c0ccad3c093a")
 	)
 	(junction
+		(at 148.59 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "027753da-b814-4a38-ab4f-3faad09189e2")
+	)
+	(junction
 		(at 231.14 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2296,6 +2140,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 41.91) (xy 163.83 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82cb4af6-80f2-473c-aebd-15903e1bd6ea")
+	)
+	(wire
+		(pts
 			(xy 223.52 80.01) (xy 231.14 80.01)
 		)
 		(stroke
@@ -2333,6 +2187,16 @@
 			(type default)
 		)
 		(uuid "92cd2ad8-9ac1-425a-9ecf-fea874173f94")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 163.83 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e671621-01c9-4206-a9da-9898cfc63b87")
 	)
 	(wire
 		(pts
@@ -3070,6 +2934,80 @@
 				)
 				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/ac8925bb-be5f-4609-8419-722455ec443e"
 					(reference "FB9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa5416e-90f6-49ff-ac19-173f7dd19931")
+		(property "Reference" "#PWR095"
+			(at 163.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73dd8012-b1dc-4bed-b750-9f7da954a80e")
+		)
+		(instances
+			(project "4AxisRig"
+				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/4d250b42-8e62-47c9-b622-9381401a0736"
+					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/a8d67072-26fc-42d1-a8ea-ec5474188697"
+					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/ac8925bb-be5f-4609-8419-722455ec443e"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -3926,6 +3864,100 @@
 				)
 				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/ac8925bb-be5f-4609-8419-722455ec443e"
 					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 163.83 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bcd47bd-7a0e-4ac9-b4a5-65055838f27b")
+		(property "Reference" "C59"
+			(at 166.37 44.4435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF"
+			(at 166.37 46.9835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC81C476KE15L/5027615"
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9870f084-98af-42e3-b3c5-b4cc7f4b7af2")
+		)
+		(pin "2"
+			(uuid "54843c2d-9413-4102-908f-c2ab2b1c4e4c")
+		)
+		(instances
+			(project "4AxisRig"
+				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/4d250b42-8e62-47c9-b622-9381401a0736"
+					(reference "C59")
+					(unit 1)
+				)
+				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/a8d67072-26fc-42d1-a8ea-ec5474188697"
+					(reference "C60")
+					(unit 1)
+				)
+				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/ac8925bb-be5f-4609-8419-722455ec443e"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -5717,100 +5749,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 148.59 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca5e4536-5c0c-4537-b234-ff4b6c77b427")
-		(property "Reference" "C34"
-			(at 151.13 43.9038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 151.13 46.4438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "865080545012:WCAP-ASLI_6.3X7.7_DXL_"
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080545012.pdf"
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/865080545012/5728106"
-			(at 150.368 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 148.59 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca0eac6e-3991-45a3-8548-0c52eccfdf92")
-		)
-		(pin "2"
-			(uuid "daf949e7-7503-487f-a392-a8dd46ae8493")
-		)
-		(instances
-			(project ""
-				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/4d250b42-8e62-47c9-b622-9381401a0736"
-					(reference "C34")
-					(unit 1)
-				)
-				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/a8d67072-26fc-42d1-a8ea-ec5474188697"
-					(reference "C44")
-					(unit 1)
-				)
-				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/ac8925bb-be5f-4609-8419-722455ec443e"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 106.68 144.78 180)
 		(unit 1)
@@ -5993,6 +5931,100 @@
 				)
 				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/ac8925bb-be5f-4609-8419-722455ec443e"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 148.59 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3c7210c-e410-4bb1-8691-bf946c37d16b")
+		(property "Reference" "C34"
+			(at 151.13 44.4435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF"
+			(at 151.13 46.9835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC81C476KE15L/5027615"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "203446af-5534-4f14-9d68-0cfca823dd91")
+		)
+		(pin "2"
+			(uuid "6a2bcdad-56b6-41dd-9c2e-4e42a01400f8")
+		)
+		(instances
+			(project "4AxisRig"
+				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/4d250b42-8e62-47c9-b622-9381401a0736"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/a8d67072-26fc-42d1-a8ea-ec5474188697"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/ac8925bb-be5f-4609-8419-722455ec443e"
+					(reference "C54")
 					(unit 1)
 				)
 			)
