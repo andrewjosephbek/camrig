@@ -2184,7 +2184,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 78.74) (xy 114.3 78.74)
+			(xy 107.95 78.74) (xy 114.3 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +3236,7 @@
 	)
 	(hierarchical_label "PPHV"
 		(shape output)
-		(at 104.14 78.74 180)
+		(at 107.95 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
