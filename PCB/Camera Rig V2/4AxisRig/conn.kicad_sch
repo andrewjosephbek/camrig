@@ -1837,7 +1837,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 146.05 90.17 90)
+		(at 146.05 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1846,21 +1846,21 @@
 		(fields_autoplaced yes)
 		(uuid "1a85600d-b6ce-45d6-80d5-132d18d2d123")
 		(property "Reference" "D2"
-			(at 148.59 89.2174 90)
+			(at 148.59 88.5824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ESD441"
-			(at 148.59 91.7574 90)
+			(at 148.59 91.1224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
@@ -1923,7 +1923,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 173.99 90.17 90)
+		(at 173.99 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1932,21 +1932,21 @@
 		(fields_autoplaced yes)
 		(uuid "38af6a4a-e917-4b23-a05b-74e588fbb081")
 		(property "Reference" "D4"
-			(at 176.53 89.2174 90)
+			(at 176.53 88.5824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ESD441"
-			(at 176.53 91.7574 90)
+			(at 176.53 91.1224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
@@ -2142,7 +2142,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 187.96 90.17 90)
+		(at 187.96 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2151,24 +2151,24 @@
 		(fields_autoplaced yes)
 		(uuid "75b24743-6d0e-4852-b570-89d5f18bb014")
 		(property "Reference" "D5"
-			(at 190.5 89.2174 90)
+			(at 190.5 88.5824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SMAJ10CA-13-F"
-			(at 190.5 91.7574 90)
+		(property "Value" "T4F10A"
+			(at 190.5 91.1224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SMAJ10CA-13-F:SMA_DIO"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -2177,7 +2177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SMAJ5.0CA-SMAJ200CA.pdf"
+		(property "Datasheet" "DF2B7AFS"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -2493,7 +2493,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 160.02 90.17 90)
+		(at 160.02 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2502,21 +2502,21 @@
 		(fields_autoplaced yes)
 		(uuid "dd0c8b76-9ba2-45c3-9996-d175b2dcbcc0")
 		(property "Reference" "D3"
-			(at 162.56 89.2174 90)
+			(at 162.56 88.5824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ESD441"
-			(at 162.56 91.7574 90)
+			(at 162.56 91.1224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
@@ -2731,7 +2731,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 132.08 90.17 90)
+		(at 132.08 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2740,21 +2740,21 @@
 		(fields_autoplaced yes)
 		(uuid "fe3b2553-19ac-4a54-9a20-126eb41d74a4")
 		(property "Reference" "D1"
-			(at 134.62 89.2174 90)
+			(at 134.62 88.5824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "ESD441"
-			(at 134.62 91.7574 90)
+			(at 134.62 91.1224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0402_1005Metric_Pad0.77x0.64mm_HandSolder"

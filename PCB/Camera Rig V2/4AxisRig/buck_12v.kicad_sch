@@ -322,156 +322,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -932,12 +782,6 @@
 		(uuid "38442015-faaa-4d26-8232-0035295310de")
 	)
 	(junction
-		(at 203.2 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79debe7d-78aa-407e-a799-96048c4ef737")
-	)
-	(junction
 		(at 189.23 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1109,16 +953,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 91.44) (xy 203.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f154711-4026-4f19-a92d-83affc984b39")
-	)
-	(wire
-		(pts
 			(xy 137.16 90.17) (xy 138.43 90.17)
 		)
 		(stroke
@@ -1209,16 +1043,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 90.17) (xy 208.28 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecad0472-3932-4966-b8e6-0f7ea02c5e0c")
-	)
-	(wire
-		(pts
 			(xy 147.32 100.33) (xy 147.32 99.06)
 		)
 		(stroke
@@ -1229,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 90.17) (xy 203.2 90.17)
+			(xy 189.23 90.17) (xy 208.28 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1290,88 +1114,93 @@
 		)
 		(uuid "e37aecdb-edc6-4efc-b776-9ee7f4c3e716")
 	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 203.2 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 160.02 100.33 180)
 		(fields_autoplaced yes)
-		(uuid "02e48c9d-8df4-4b1c-b707-8aba54b46574")
-		(property "Reference" "D6"
-			(at 205.74 94.2974 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3638719d-534e-45b0-ba22-66be34bd58e0")
+		(property "Netclass" "Power SW (~100kHz)"
+			(at 160.7185 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SMAJ10CA-13-F"
-			(at 205.74 96.8374 90)
+		(property "Component Class" ""
+			(at -207.01 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 137.16 74.93 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68cb4d8d-c481-4c54-b4c7-3c013468a06c")
+		(property "Netclass" "Power SW (~100kHz)"
+			(at 140.97 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SMAJ10CA-13-F:SMA_DIO"
-			(at 203.2 95.25 0)
+		(property "Component Class" ""
+			(at -229.87 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 123.19 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a680b5d2-e48b-475d-862f-d4eab717e49b")
+		(property "Netclass" "Power SW (~100kHz)"
+			(at 97.79 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SMAJ5.0CA-SMAJ200CA.pdf"
-			(at 203.2 95.25 0)
+		(property "Component Class" ""
+			(at -243.84 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8adbb077-f010-423c-9e24-7af365a6b57f")
-		)
-		(pin "1"
-			(uuid "1d714707-15f4-40f3-a5ed-5f9d051067f7")
-		)
-		(instances
-			(project "4AxisRig"
-				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/ea896716-9127-4765-8811-1397e4644c8c"
-					(reference "D6")
-					(unit 1)
+					(italic yes)
 				)
 			)
 		)
@@ -1860,72 +1689,6 @@
 			(project "4AxisRig"
 				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/ea896716-9127-4765-8811-1397e4644c8c"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6296fd8e-efe1-49b4-8910-75e909dca2cd")
-		(property "Reference" "#PWR0101"
-			(at 203.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29b07dcc-de0d-4f9a-9dde-99d9b89f4059")
-		)
-		(instances
-			(project "4AxisRig"
-				(path "/afe116b2-64d1-4090-9b3d-2b16ecf9512b/ea896716-9127-4765-8811-1397e4644c8c"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
